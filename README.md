@@ -38,19 +38,19 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li>Ruby</a></li>
+    <li>RUBY</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary></summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
