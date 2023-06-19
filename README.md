@@ -83,7 +83,7 @@ Node Package Manager (npm)
 An editor as Visual Studion Code:
 
 ```sh
- gem install rails
+ gem install bundler
 ```
  -->
 
@@ -179,7 +179,7 @@ npm run deploy
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/eudondian/Vet-clinic/issues).
+Feel free to check the [issues page](https://github.com/eudondian/opp-school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
