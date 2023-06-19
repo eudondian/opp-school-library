@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [SCHOOL LIBRARY] <a name="about-project"></a>
+# 📖 SCHOOL LIBRARY <a name="about-project"></a>
 
 - The OOP school Library is a comprehensive solution written in Ruby for efficiently managing a school library. It is a web-based application that streamlines the processes involved in cataloging, tracking and lending books within a school setting.👌
 
@@ -89,11 +89,11 @@ An editor as Visual Studion Code:
 
 Clone this repository to your desired folder:
 
-Example commands:
-
 ```sh
-  cd oop_school_library
-  git clone git@github.com:eudondian/oop_school_library.git
+ - cd oop_school_library
+ - git clone git@github.com:eudondian/oop_school_library.git
+ - Update your git identity by running "git config --global user.email "your email.com""
+ - Update your name on git by running "git config --global user.name "your name""
 
 ```
 
