@@ -40,21 +40,7 @@
   <ul>
     <li>RUBY</a></li>
   </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
     
-  </ul>
-</details>
-
-<details>
-<summary></summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
