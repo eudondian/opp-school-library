@@ -166,9 +166,9 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-  [Contact form page]
-  [A feature for more detailed demographic d
-
+ - [Contact form page]
+ - [A feature for a more detailed demographic data]
+ - [A feature for updating the list of countries]
 
 
 
@@ -208,8 +208,5 @@ If you like this project you can leave a star to it.
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>at
-  - [Contact form page]
-  - [A feature for a more detailed demographic data]
-  - [A feature for updating the list of countries]
-
+  
 This project is [MIT](https://github.com/eudondian/Vet-clinic/blob/Animal_Database/MIT.md) licensed.
