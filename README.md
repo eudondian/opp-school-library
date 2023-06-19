@@ -47,8 +47,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - Add a book.🚀
 - Borrow a book 💯
 - Add Linter👌
@@ -61,7 +59,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com) coming soon!
+- [Live Demo Link]() 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,6 +166,9 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+ - [Contact form page]
+ - [A feature for a more detailed demographic data]
+ - [A feature for updating the list of countries]
 
 
 
@@ -206,6 +207,6 @@ If you like this project you can leave a star to it.
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
-
+## 📝 License <a name="license"></a>at
+  
 This project is [MIT](https://github.com/eudondian/Vet-clinic/blob/Animal_Database/MIT.md) licensed.
