@@ -48,10 +48,10 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Add a book]**
-- **[Borrow a book]**
-- **[linter checks]**
-
+- Add a book.🚀
+- Borrow a book 💯
+- Add Linter👌
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -91,26 +91,25 @@ An editor as Visual Studion Code:
 
 Clone this repository to your desired folder:
 
-<!--
 Example commands:
 
 ```sh
   cd oop_school_library
   git clone git@github.com:eudondian/oop_school_library.git
+
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+To Install this, 
 
 ```sh
-  bundle install
+ Run bundle install
+
 ```
---->
 
 ### Usage
 <!--
@@ -125,16 +124,17 @@ Example command:
 
 To run tests, run the following command:
 
-<!--
 
-```sh
- Run "rubocop --fix to fix linters"
+  ```sh
+  Run "rubocop --fix to fix linters"
+
 ```
 or
+
 ```sh
- Run "rubocop -A  to fix linters"
+  Run "rubocop -A fix to fix linters"
+
 ```
---->
 
 ### Deployment
 
