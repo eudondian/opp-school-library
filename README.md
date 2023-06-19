@@ -40,6 +40,7 @@
   <ul>
     <li>RUBY</a></li>
   </ul>
+</details>
     
 
 <!-- Features -->
@@ -140,13 +141,12 @@ or
 
 You can deploy this project using:
 
-<!--
-
 github pages
 
 ```sh
 npm run deploy
- -->
+
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
