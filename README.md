@@ -1,43 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -63,41 +25,50 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖<a>SCHOOL LIBRARY</a>
+# 📖 [SCHOOL LIBRARY] <a name="about-project"></a>
 
 - The OOP school Library is a comprehensive solution written in Ruby for efficiently managing a school library. It is a web-based application that streamlines the processes involved in cataloging, tracking and lending books within a school setting.👌
+
+
 ## 🛠️ Built With <a name="built-with"></a>
 
-### Tech Stack
+
+### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li>Sql commands</li>
-    <li>Postgresql</li>
+    <li>RUBY</a></li>
   </ul>
-</details>
-
+    
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
+> Describe between 1-3 key features of the application.
 
-- Add a book.🚀
-- Borrow a book 💯
-- Add Linter👌
-
+- **[Add a book]**
+- **[Borrow a book]**
+- **[linter checks]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com) coming soon!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -105,69 +76,77 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+<!--
 The current version of node
 To have Git installed on your local machine
 Node Package Manager (npm)
-An editor as Visual Studion Code
-
-
-Example command:
+An editor as Visual Studion Code:
 
 ```sh
-1.use a browser
-2.use cable internet
+ gem install bundler
 ```
- 
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
+<!--
 Example commands:
 
 ```sh
-  cd OOP_school_library
-  git clone git@github.com:eudondian/OOP_school_library.git
-
+  cd oop_school_library
+  git clone git@github.com:eudondian/oop_school_library.git
 ```
-
+--->
 
 ### Install
 
-To Install this, 
+Install this project with:
 
-```sh
- Run bundle install
-
-```
-
-
-### Run Test
-
-  ```sh
-  Run "rubocop --fix to fix linters"
-
-```
-or
-
-```sh
-  Run "rubocop -A fix to fix linters"
-
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-
+<!--
 Example command:
 
 ```sh
-1. You can use the terminal to check from the commands
+  bundle install
 ```
+--->
 
+### Usage
+<!--
+Example command:
 
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+
+```sh
+ Run "rubocop --fix to fix linters"
+```
+or
+```sh
+ Run "rubocop -A  to fix linters"
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+
+github pages
+
+```sh
+npm run deploy
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,7 +179,7 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/eudondian/Vet-clinic/issues).
+Feel free to check the [issues page](https://github.com/eudondian/opp-school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,9 +195,8 @@ If you like this project you can leave a star to it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
+- I would like to thank Microverse for giving us an opportunity to learn more about software Development.
 
-- I would also like to thank my coding partners Chis and habtamu for the support toward the completion of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,7 +209,3 @@ If you like this project you can leave a star to it.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/eudondian/Vet-clinic/blob/Animal_Database/MIT.md) licensed.
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
