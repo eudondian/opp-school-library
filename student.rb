@@ -9,9 +9,4 @@ class Student < Person
   def play_hooky
     '¯\(ツ)/¯'
   end
-
-  def add_classroom(classroom)
-    @classroom.student = classroom
-    classroom.students.push(self) unless classroom.students.iclude?(self)
-  end
 end
