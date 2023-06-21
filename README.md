@@ -26,7 +26,7 @@
 
 # 📖 SCHOOL LIBRARY <a name="about-project"></a>
 
-- The OOP school Library is a comprehensive solution written in Ruby for efficiently managing a school library. It is a web-based application that streamlines the processes involved in cataloging, tracking and lending books within a school setting.👌
+- The OOP school Library project is a comprehensive solution written in Ruby for efficiently managing a school library. It is a web-based application that streamlines the processes involved in cataloging, tracking and lending books within a school setting.👌
 
 
 ## 🛠️ Built With <a name="built-with"></a>
