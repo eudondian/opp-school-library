@@ -31,8 +31,7 @@ class Person < Nameable
     rand(1..1000)
   end
 
-  def add_rental(rental)
-    @rentals.push
-    rental.person = self
+  def add_rental(book, date)
+    @Rental.new(date, book, self)
   end
 end
