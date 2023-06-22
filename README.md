@@ -86,20 +86,20 @@ Clone this repository to your desired folder:
  - Update your git identity by running "git config --global user.email "your email.com""
  - Update your name on git by running "git config --global user.name "your name""
 
-```
 
 
 ### Install
 
 To Install this, 
 
+ ```sh
   Run bundle install
 
 ```
 
  
-
-### Usage
+ 
+ ### Usage
 <!--
 Example command:
 
