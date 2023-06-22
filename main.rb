@@ -1,8 +1,8 @@
 require './app'
 
+# rubocop:disable Metrics/MethodLength,Metrics/CyclomaticComplexity
 def main
-  # rubocop:disable Metrics/MethodLength,Metrics/CyclomaticComplexity
-  app = App.new
+   app = App.new
 
   loop do
     print_menu_options
