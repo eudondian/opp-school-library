@@ -1,6 +1,7 @@
 require './app'
 
 def main
+  # rubocop:disable Metrics/MethodLength,Metrics/CyclomaticComplexity
   app = App.new
 
   loop do
