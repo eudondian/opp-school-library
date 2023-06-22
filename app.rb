@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './person'
 require './student'
 require './teacher'
@@ -66,7 +64,6 @@ class App
     end
 
     rentals = find_rentals_for_person(person)
-
 
     if rentals.empty?
       puts "No rentals found for person: #{person}"
