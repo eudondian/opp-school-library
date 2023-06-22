@@ -20,7 +20,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -122,17 +121,10 @@ To run tests, run the following command:
   Run "rubocop --fix to fix linters"
 
 ```
-or
 
-  ```sh
-  Run "rubocop --fix to fix linters"
-
-```
 or
 
 ```sh
-  Run "rubocop -A fix to fix linters"
-
   Run "rubocop -A fix to fix linters"
 
 ```
