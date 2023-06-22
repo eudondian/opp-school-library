@@ -93,11 +93,11 @@ Clone this repository to your desired folder:
 
 To Install this, 
 
-```sh
- Run bundle install
+  Run bundle install
 
 ```
 
+ 
 
 ### Usage
 <!--
@@ -156,11 +156,7 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
- add_basic_UI
- - [Contact form page]
- - [A feature for a more detailed demographic data]
- - [A feature for updating the list of countries]
-
+ 
  - [Contact form page]
  - [A feature for a more detailed demographic data]
  - [A feature for updating the list of countries]
