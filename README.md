@@ -20,6 +20,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -52,9 +53,15 @@
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -84,7 +91,6 @@ Clone this repository to your desired folder:
  - Update your name on git by running "git config --global user.name "your name""
 
 ```
-
 
 
 ### Install
@@ -117,7 +123,6 @@ To run tests, run the following command:
 
 ```
 or
-
 
 ```sh
   Run "rubocop -A fix to fix linters"
@@ -190,6 +195,9 @@ If you like this project you can leave a star to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
