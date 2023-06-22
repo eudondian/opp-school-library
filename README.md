@@ -25,10 +25,14 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 SCHOOL LIBRARY <a name="about-project"></a>
+# 📖 SCHOOL LIBRARY <a name="about-project"></a>
+
+- The OOP school Library is a comprehensive solution written in Ruby for efficiently managing a school library. It is a web-based application that streamlines the processes involved in cataloging, tracking and lending books within a school setting.👌
 
 - The OOP school Library is a comprehensive solution written in Ruby for efficiently managing a school library. It is a web-based application that streamlines the processes involved in cataloging, tracking and lending books within a school setting.👌
 
 
+## 🛠️ Built With <a name="built-with"></a>
 ## 🛠️ Built With <a name="built-with"></a>
 
 
@@ -66,8 +70,13 @@ The current version of node
 To have Git installed on your local machine
 Node Package Manager (npm)
 An editor as Visual Studion Code:
+The current version of node
+To have Git installed on your local machine
+Node Package Manager (npm)
+An editor as Visual Studion Code:
 
 ```sh
+ gem install bundler
  gem install bundler
 ```
  -->
@@ -82,7 +91,13 @@ Clone this repository to your desired folder:
  - Update your git identity by running "git config --global user.email "your email.com""
  - Update your name on git by running "git config --global user.name "your name""
 
+ - cd oop_school_library
+ - git clone git@github.com:eudondian/oop_school_library.git
+ - Update your git identity by running "git config --global user.email "your email.com""
+ - Update your name on git by running "git config --global user.name "your name""
+
 ```
+
 
 
 ### Install
@@ -90,8 +105,11 @@ Clone this repository to your desired folder:
 Install this project with:
 
 To Install this, 
+To Install this, 
 
 ```sh
+ Run bundle install
+
  Run bundle install
 
 ```
@@ -116,7 +134,15 @@ To run tests, run the following command:
 ```
 or
 
+  ```sh
+  Run "rubocop --fix to fix linters"
+
+```
+or
+
 ```sh
+  Run "rubocop -A fix to fix linters"
+
   Run "rubocop -A fix to fix linters"
 
 ```
@@ -126,8 +152,10 @@ or
 You can deploy this project using:
 
 github pages
+github pages
 
 ```sh
+npm run deploy
 npm run deploy
 
 ```
@@ -148,9 +176,14 @@ npm run deploy
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
+ - [Contact form page]
+ - [A feature for a more detailed demographic data]
+ - [A feature for updating the list of countries]
 
  - [Contact form page]
  - [A feature for a more detailed demographic data]
@@ -167,13 +200,16 @@ npm run deploy
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/eudondian/opp-school-library/issues).
+Feel free to check the [issues page](https://github.com/eudondian/opp-school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐ Show your support <a name="support"></a>
+## ⭐ Show your support <a name="support"></a>
 
+If you like this project you can leave a star to it.
 If you like this project you can leave a star to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
