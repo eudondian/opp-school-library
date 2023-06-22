@@ -6,7 +6,6 @@ require './teacher'
 require './book'
 require './rental'
 
-
 class App
   def initialize
     @people = []
