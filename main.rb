@@ -1,58 +1,87 @@
-require_relative 'app'
+# frozen_string_literal: true
+
+require './app'
 
 def main
   app = App.new
 
   loop do
-    puts 'Options:'
-    puts '1. List all books'
-    puts '2. List all people'
-    puts '3. Create a person'
-    puts '4. Create a book'
-    puts '5. Create a rental'
-    puts '6. List all rentals for a person'
-    puts '0. Exit'
-
-    print 'Enter your choice: '
+    print_menu_options
     choice = gets.chomp.to_i
 
     case choice
     when 1
-      app.list_all_books
+      list_all_books(app)
     when 2
-      app.list_all_people
+      list_all_people(app)
     when 3
-      print "Enter the person's name: "
-      name = gets.chomp
-      print "Enter the person's type (teacher or student): "
-      type = gets.chomp
-      app.create_person(name, type)
+      create_person(app)
     when 4
-      print "Enter the book's title: "
-      title = gets.chomp
-      print "Enter the book's author: "
-      author = gets.chomp
-      app.create_book(title, author)
+      create_book(app)
     when 5
-      print "Enter the person's ID: "
-      person_id = gets.chomp.to_i
-      print "Enter the book's ID: "
-      book_id = gets.chomp.to_i
-      print 'Enter the rental date (YYYY-MM-DD): '
-      rental_date = gets.chomp
-      app.create_rental(person_id, book_id, rental_date)
+      create_rental(app)
     when 6
-      print "Enter the person's ID: "
-      person_id = gets.chomp.to_i
-      app.list_rentals_for_person(person_id)
-    when 0
+      list_rentals_for_person(app)
+    when 7
+      puts 'Quitting the app...'
       break
     else
-      puts 'Invalid choice! Please try again.'
+      puts 'Invalid choice'
     end
 
-    puts "\n"
+    puts
   end
+end
+
+def print_menu_options
+  puts 'Please choose an option:'
+  puts '1. List all books'
+  puts '2. List all people'
+  puts '3. Create a person'
+  puts '4. Create a book'
+  puts '5. Create a rental'
+  puts '6. List rentals for a person'
+  puts '7. Quit'
+end
+
+def list_all_books(app)
+  app.list_all_books
+end
+
+def list_all_people(app)
+  app.list_all_people
+end
+
+def create_person(app)
+  puts 'Enter name:'
+  name = gets.chomp
+  puts 'Enter person type (teacher/student):'
+  type = gets.chomp
+  app.create_person(name, type)
+end
+
+def create_book(app)
+  puts 'Enter book title:'
+  title = gets.chomp
+  puts 'Enter book author:'
+  author = gets.chomp
+  app.create_book(title, author)
+end
+
+def create_rental(app)
+  puts 'Enter person ID:'
+  person_id = gets.chomp.to_i
+  puts 'Enter book ID:'
+  book_id = gets.chomp.to_i
+  puts 'Enter rental date:'
+  rental_date = gets.chomp
+  app.create_rental(person_id, book_id, rental_date)
+end
+
+def list_rentals_for_person(app)
+  puts 'Enter person ID:'
+  person_id = gets.chomp.to_i
+  app.list_rentals_for_person(person_id)
 end
 
 main

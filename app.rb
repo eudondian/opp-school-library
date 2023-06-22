@@ -1,8 +1,11 @@
+# frozen_string_literal: true
+
 require './person'
 require './student'
 require './teacher'
 require './book'
 require './rental'
+
 
 class App
   def initialize
@@ -55,7 +58,7 @@ class App
     puts "#{rental} created successfully!"
   end
 
-  def list_rentals_for_person(person_id)
+  def list_rents(person_id)
     person = find_person_by_id(person_id)
 
     if person.nil?
@@ -63,7 +66,8 @@ class App
       return
     end
 
-    rentals = @rentals.select { |rental| rental.person.id == person_id }
+    rentals = find_rentals_for_person(person)
+
 
     if rentals.empty?
       puts "No rentals found for person: #{person}"
@@ -81,5 +85,9 @@ class App
 
   def find_book_by_id(book_id)
     @books.find { |book| book.id == book_id }
+  end
+
+  def find_rentals_for_person(_person)
+    @rentals = @rentals.select { |rental| rental.person.id == person_id }
   end
 end
