@@ -35,6 +35,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -53,9 +54,7 @@
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -84,7 +83,7 @@ An editor as Visual Studion Code:
 
 Clone this repository to your desired folder:
 
-```sh
+
  - cd oop_school_library
  - git clone git@github.com:eudondian/oop_school_library.git
  - Update your git identity by running "git config --global user.email "your email.com""
@@ -103,6 +102,7 @@ To Install this,
  Run bundle install
 
 ```
+
 
 ### Usage
 <!--
@@ -124,7 +124,15 @@ To run tests, run the following command:
 ```
 or
 
+  ```sh
+  Run "rubocop --fix to fix linters"
+
+```
+or
+
 ```sh
+  Run "rubocop -A fix to fix linters"
+
   Run "rubocop -A fix to fix linters"
 
 ```
@@ -160,6 +168,11 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+ add_basic_UI
+ - [Contact form page]
+ - [A feature for a more detailed demographic data]
+ - [A feature for updating the list of countries]
+
  - [Contact form page]
  - [A feature for a more detailed demographic data]
  - [A feature for updating the list of countries]
@@ -182,7 +195,10 @@ Feel free to check the [issues page](https://github.com/eudondian/opp-school-lib
 
 ## ⭐ Show your support <a name="support"></a>
 
+
 If you like this project you can leave a star to it.
+## ⭐ Show your support <a name="support"></a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,11 +209,11 @@ If you like this project you can leave a star to it.
 - I would like to thank Microverse for giving us an opportunity to learn more about software Development.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 <!-- LICENSE -->
 
