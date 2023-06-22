@@ -59,9 +59,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -93,8 +91,6 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
-
 To Install this, 
 
 ```sh
@@ -125,7 +121,7 @@ To run tests, run the following command:
 or
 
 ```sh
-  Run "rubocop -A fix to fix linters"
+  Run "rubocop -A  to fix linters"
 
 ```
 

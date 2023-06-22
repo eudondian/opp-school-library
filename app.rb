@@ -4,6 +4,7 @@ require './teacher'
 require './book'
 require './rental'
 
+
 class App
   def initialize
     @people = []
@@ -55,7 +56,7 @@ class App
     puts "#{rental} created successfully!"
   end
 
-  def list_rents(person_id)
+  def list_rentals(person_id)
     person = find_person_by_id(person_id)
 
     if person.nil?
@@ -64,6 +65,7 @@ class App
     end
 
     rentals = find_rentals_for_person(person)
+
 
     if rentals.empty?
       puts "No rentals found for person: #{person}"
