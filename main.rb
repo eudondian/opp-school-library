@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative 'app'
 
 # rubocop:disable all
@@ -13,9 +11,7 @@ class Main
   end
 
   def main
-    # app = App.new
-
-    loop do
+       loop do
       print_menu_options
       choice = gets.chomp.to_i
 
